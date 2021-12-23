@@ -1,0 +1,45 @@
++libclass(angle)
+
+-env_push
+-i"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include"
+-i"C:\Git\BuildServer\CUnitTestStart/."
+-i"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\atlmfc\include"
+-i"C:\Git\BuildServer\CUnitTestStart/."
+-i"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Auxiliary\VS\include"
+-i"C:\Git\BuildServer\CUnitTestStart/."
+-i"C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt"
+-i"C:\Git\BuildServer\CUnitTestStart/."
+-i"C:\Git\BuildServer\CUnitTestStart/."
+-i"C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um"
+-i"C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared"
+-i"C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\winrt"
+-i"C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\cppwinrt"
+-i"C:\Git\BuildServer\CUnitTestStart/Include\um"
+-i"C:\Git\BuildServer\CUnitTestStart/."
+-i"C:\Git\BuildServer\CUnitTestStart/CUnit\hdr"
+-i"C:\Git\BuildServer\CUnitTestStart/."
++fcu -d_CHAR_UNSIGNED -d_ATL_ALLOW_CHAR_UNSIGNED
+-dWIN32
+-d_DEBUG
+-d_CONSOLE
+-d_CRT_SECURE_NO_WARNINGS
+-d_UNICODE
+-dUNICODE
+-d_CPPUNWIND=1
+-d_DEBUG=1
+-d_DLL=1
+-d_MT=1
+-d_M_FP_PRECISE=1
++ffb
+"C:\Git\BuildServer\CUnitTestStart/CUnit\src\Automated.c"
+"C:\Git\BuildServer\CUnitTestStart/CUnit\src\Basic.c"
+"C:\Git\BuildServer\CUnitTestStart/CUnit\src\CUError.c"
+"C:\Git\BuildServer\CUnitTestStart/CUnit\src\MyMem.c"
+"C:\Git\BuildServer\CUnitTestStart/CUnit\src\TestDB.c"
+"C:\Git\BuildServer\CUnitTestStart/CUnit\src\TestRun.c"
+"C:\Git\BuildServer\CUnitTestStart/CUnit\src\Util.c"
+"C:\Git\BuildServer\CUnitTestStart/InitDeinit.c"
+"C:\Git\BuildServer\CUnitTestStart/main.c"
+"C:\Git\BuildServer\CUnitTestStart/UnitTestmain.c"
+-env_pop
+
