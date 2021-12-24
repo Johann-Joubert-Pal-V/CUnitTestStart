@@ -32,3 +32,10 @@ void CmdTest2(void)
 
 	CU_ASSERT_EQUAL(testValue, 0);
 }
+
+void CmdTest3(void)
+{
+	int testValue = 0;
+
+	CU_ASSERT_EQUAL(testValue, 0);
+}
