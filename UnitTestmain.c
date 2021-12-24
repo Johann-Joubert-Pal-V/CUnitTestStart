@@ -17,6 +17,7 @@ static void runBasicTests(void);
 static CU_TestInfo cmdTests[] = {
 	{ "CmdTest1", CmdTest1 },
 	{ "CmdTest2", CmdTest2 },
+	{ "CmdTest3", CmdTest3 },
 	CU_TEST_INFO_NULL,
 };
 
