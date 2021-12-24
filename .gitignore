@@ -1,0 +1,16 @@
+
+cov_html_output/
+
+Debug/
+
+.vs/CUnitTestAppl2/v16/
+
+analysis.log
+
+imposter.obj
+
+out-Listing.xml
+
+out-Results.xml
+
+test.cov
